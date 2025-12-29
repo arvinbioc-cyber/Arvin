@@ -1,2 +1,416 @@
-# Arvin
-This is My First Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">🌙</button>
+                </li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Arvin Clark T. Bioc</h1>
+            <p class="tagline">Aspiring Web Developer IT Student</p>
+            <p class="quote">The only way to do great work is to love what you do.</p>
+            <p>Welcome to my portfolio! Here you'll find my journey in web development, the projects I've built, and the skills I've acquired. I'm passionate about creating meaningful digital experiences and continuously learning new technologies.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">View My Contact</a>
+            </div>
+        </div>
+        <div class="profile-section">
+            <img src="/5bc1966d-86c2-401d-8e1f-e04244f23c37.img" alt="Profile" class="profile-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-card">
+                <h3>🎓 Education</h3>
+                <ul>
+                    <li>Bachelor of Science in Information Technology</li>
+                    <li>Currently 2nd Year Student</li>
+                    <li>Focused on Web Development</li>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>💡 Technical Interests</h3>
+                <ul>
+                    <li>Full-Stack Web Development</li>
+                    <li>User Interface & User Experience Design</li>
+                    <li>Database Management Systems</li>
+                    <li>Cybersecurity Fundamentals</li>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>🎯 Personal Interests</h3>
+                <ul>
+                    <li>Problem-solving through code</li>
+                    <li>Open-source contributions</li>
+                    <li>Tech blogs and podcasts</li>
+                    <li>Gaming and game development</li>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>🌟 Goals & Aspirations</h3>
+                <ul>
+                    <li>Build impactful web applications</li>
+                    <li>Contribute to meaningful projects</li>
+                    <li>Master modern frameworks and tools</li>
+                    <li>Collaborate with talented developers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Background Section -->
+    <section id="education">
+        <h2>Academic Background</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025 Present</div>
+                    <h3>🎓 Bachelor of Science in Information Technology</h3>
+                    <h4>Eastern Visayas State University in Ormoc City Campus</h4>
+                    <p>Currently in 2nd Year, specializing in Web Development and Software Engineering. Maintaining a strong academic record while actively participating in coding competitions and tech clubs.</p>
+                    <div class="timeline-highlights">
+                        <span class="highlight-tag">Champion C programming Contest in IT Days</span>
+                        <span class="highlight-tag">3rd Placer in Mobile Legeneds During Intramurals</span>
+                        <span class="highlight-tag">Completion of Codechum Only Acitivities</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <h3>📚 Senior High School</h3>
+                    <h4>Seguinon Stand Alone Senior High School HUMSS Strand</h4>
+                    <p>Graduated with honors, focused on Science, Technology, Engineering, and Mathematics. Developed strong analytical and problem-solving skills through rigorous coursework.</p>
+                    <div class="timeline-highlights">
+                        <span class="highlight-tag">With Honors</span>
+                        <span class="highlight-tag">2nd Placer BookFace</span>
+                        <span class="highlight-tag">2nd Placer Math Contest</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2017 - 2021</div>
+                    <h3>🏫 Junior High School</h3>
+                    <h4>Dr. Geronimo B Zaldivar Memorial School of Fisheries</h4>
+                    <p>Completed junior high school with distinction. Active participant in science fairs and computer literacy programs. Discovered passion for technology and programming.</p>
+                    <div class="timeline-highlights">
+                        <span class="highlight-tag">Honor Roll</span>
+                        <span class="highlight-tag">Science Fair Participant</span>
+                        <span class="highlight-tag">Computer Club Member</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2011 - 2017</div>
+                    <h3>📖 Elementary School</h3>
+                    <h4>Albuera North Central School</h4>
+                    <p>Completed elementary education with consistent academic achievement. Participated in various academic competitions and extracurricular activities that fostered early interest in technology.</p>
+                    <div class="timeline-highlights">
+                        <span class="highlight-tag">Academic Achiever</span>
+                        <span class="highlight-tag">Quiz Bee Participant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Certifications Section -->
+    <section id="awards">
+        <h2>Awards & Certifications</h2>
+        <div class="awards-grid">
+            <div class="award-category">
+                <h3>🏆 Academic Awards</h3>
+                <div class="award-list">
+                    <div class="award-item">
+                        <div class="award-icon">🥇</div>
+                        <div class="award-details">
+                            <h4>Service Awards</h4>
+                            <p class="award-year">2023</p>
+                            <p class="award-description">Service Awards recognize and honor individuals for their dedication, hard work, and contributions to an organization or community over a period of time.</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">🎖️</div>
+                        <div class="award-details">
+                            <h4>With Honors</h4>
+                            <p class="award-year">2023</p>
+                            <p class="award-description">Graduated Senior High School with Honors, recognized for outstanding academic achievement in HUMSS strand.</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">⭐</div>
+                        <div class="award-details">
+                            <h4>Honor Roll Recipient</h4>
+                            <p class="award-year">2017-2021</p>
+                            <p class="award-description">Consistently placed on the honor roll throughout Junior High School years.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="award-category">
+                <h3>📜 Certifications</h3>
+                <div class="award-list">
+                    <div class="award-item">
+                        <div class="award-icon">💻</div>
+                        <div class="award-details">
+                            <h4>Web Development Fundamentals</h4>
+                            <p class="award-year">2025</p>
+                            <p class="award-description">Completed comprehensive online course (CodeChum) covering HTML, CSS, and JavaScript basics from recognized platform.</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">🔒</div>
+                        <div class="award-details">
+                            <h4>Cybersecurity Basics</h4>
+                            <p class="award-year">2025</p>
+                            <p class="award-description">Certified in fundamental cybersecurity concepts and best practices through online learning platform.</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">🐍</div>
+                        <div class="award-details">
+                            <h4>Python Programming</h4>
+                            <p class="award-year">2025</p>
+                            <p class="award-description">Successfully completed Python programming course, covering core concepts and practical applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="award-category">
+                <h3>🎯 Competition & Recognition</h3>
+                <div class="award-list">
+                    <div class="award-item">
+                        <div class="award-icon">🏅</div>
+                        <div class="award-details">
+                            <h4>C Program Competition Participant</h4>
+                            <p class="award-year">2024</p>
+                            <p class="award-description">Participated in school, collaborating with 2 IT students to solve programming challenges</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">🧮</div>
+                        <div class="award-details">
+                            <h4>Math Quiz Bee - 2nd Place</h4>
+                            <p class="award-year">2023</p>
+                            <p class="award-description">Secured 2nd place in inter-school mathematics competition during Senior High School.</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">🔬</div>
+                        <div class="award-details">
+                            <h4>Science Fair Awardee</h4>
+                            <p class="award-year">2020</p>
+                            <p class="award-description">Received recognition for innovative science project at school science fair during Junior High School.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>💻 Programming Languages</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🛠️ Tools & Platforms</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Docker</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🎨 Frameworks & Libraries</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Express</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🗄️ Technical Areas</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Web Development</span>
+                    <span class="skill-tag">Database Design</span>
+                    <span class="skill-tag">Networking</span>
+                    <span class="skill-tag">Cybersecurity</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🤝 Soft Skills</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Problem-solving</span>
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Collaboration</span>
+                    <span class="skill-tag">Time Management</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>📚 Currently Learning</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Html</span>
+                    <span class="skill-tag">Css</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">Java</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🌐</div>
+                <div class="project-content">
+                    <h3>Personal Portfolio Website</h3>
+                    <p class="project-description">A responsive single-page portfolio website showcasing my skills, projects, and contact information. Features light/dark mode toggle and smooth navigation.</p>
+                    <p><strong>My Role:</strong> Full-Stack Developer - Designed and developed the entire website from scratch</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">📝</div>
+                <div class="project-content">
+                    <h3>Task Manager Application</h3>
+                    <p class="project-description">A dynamic to-do list application that helps users organize their tasks efficiently. Includes features like task prioritization, due dates, and local storage persistence.</p>
+                    <p><strong>My Role:</strong> Frontend Developer - Implemented UI/UX and interactive features</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Html</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>My Contact</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>arvinbioc@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+63 909 491 1735</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Poblacion, Albuera Leyte</p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/arvinbioc-cyber" class="social-link" title="GitHub">🐱‍👤</a>
+                        <a href="https://www.instagram.com/unknown_userrr4869?igsh=Y2lkbjY1MHpqdjQy&utm_source=qr" class="social-link" title="Instagram">📷</a>
+                        <a href="https://www.facebook.com/share/1NqQUP4nub/?mibextid=wwXIfr" class="social-link" title="Facebook">📘</a>
+                        <a href="#" class="social-link" title="Twitter">𝕏</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 arvinbioc. All rights reserved. Built with ❤️ and code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
