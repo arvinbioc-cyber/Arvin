@@ -34,7 +34,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Navigation */
+
 nav {
     position: fixed;
     top: 0;
@@ -108,7 +108,7 @@ nav {
     transition: 0.3s;
 }
 
-/* Sections */
+
 section {
     min-height: 100vh;
     padding: 6rem 2rem 4rem;
@@ -123,7 +123,7 @@ h2 {
     text-align: center;
 }
 
-/* Home Section */
+
 #home {
     display: flex;
     align-items: center;
@@ -269,7 +269,7 @@ h2 {
     box-shadow: 0 15px 40px var(--shadow);
 }
 
-/* About Section */
+
 #about {
     background-color: var(--bg-secondary);
 }
@@ -309,7 +309,7 @@ h2 {
     font-weight: bold;
 }
 
-/* Academic Background Timeline Section */
+
 #education {
     background-color: var(--bg-primary);
 }
@@ -419,7 +419,7 @@ h2 {
     font-size: 0.85rem;
 }
 
-/* Awards & Certifications Section */
+
 #awards {
     background-color: var(--bg-secondary);
 }
@@ -489,7 +489,7 @@ h2 {
     line-height: 1.6;
 }
 
-/* Skills Section */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -531,7 +531,7 @@ h2 {
     font-size: 0.9rem;
 }
 
-/* Projects Section */
+
 #projects {
     background-color: var(--bg-secondary);
 }
@@ -596,7 +596,7 @@ h2 {
     color: var(--text-secondary);
 }
 
-/* Contact Section */
+
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -686,7 +686,7 @@ h2 {
     background-color: var(--accent-hover);
 }
 
-/* Footer */
+
 footer {
     background-color: var(--bg-secondary);
     text-align: center;
@@ -694,7 +694,7 @@ footer {
     color: var(--text-secondary);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .nav-links {
         position: fixed;
@@ -755,7 +755,7 @@ footer {
         font-size: 2rem;
     }
 
-    /* Timeline Mobile */
+    
     .timeline::before {
         left: 30px;
     }
@@ -800,7 +800,7 @@ footer {
     }
 }
 
-/* Smooth scroll */
+
 html {
     scroll-behavior: smooth;
 }
